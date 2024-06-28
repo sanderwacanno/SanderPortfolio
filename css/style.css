@@ -136,8 +136,13 @@ nav {
     height: auto;
 }
 
+#sticker {
+    width: 20vw;
+    height: auto;
+}
+
 .sitepic {
-    width: 40vw;
+    width: 25vw;
     height: auto;
 }
 
@@ -154,7 +159,7 @@ nav {
 }
 
 .sitearticle {
-    width: 45vw;
+    width: 28vw;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -194,4 +199,8 @@ p {
 
 nav {
     margin: 10px 10px 10px 10px;
+}
+
+li {
+    margin-bottom: 0.5em;
 }
