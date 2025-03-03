@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: LeviWindows;
-    src: url(/content/ancientwindows.ttf);
+    src: url('../content/ancientwindows.ttf');
 }
 
 /* html{
@@ -15,7 +15,7 @@
 
 body{
     /* background: rgb(26, 7, 44); */
-    background-image: url(/content/landscape2.png);
+    background-image: url('../content/landscape2.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
@@ -160,6 +160,11 @@ li {
 
 
 /* Objects */
+.textsvg {
+    height: 1em;
+    width: auto;
+}
+
 .window {
     height: auto;
     width: 40vw;
