@@ -2,6 +2,7 @@
     --main-colorpalletecolor-1: pink;
 
     --main-text-font: LeviWindows;
+    --link-color: #551A8B;
 }
 
 @font-face {
@@ -142,6 +143,14 @@ header img:first-of-type {
     margin-top: 2em;
 } */
 
+a {
+    color: var(--link-color);
+}
+
+a svg {
+    fill: var(--link-color);
+}
+
 li {
     margin-bottom: 0.5em;
 }
@@ -163,6 +172,7 @@ li {
 .textsvg {
     height: 1em;
     width: auto;
+    fill: var(--link-color);
 }
 
 .window {
