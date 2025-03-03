@@ -9,9 +9,9 @@
     src: url(/content/ancientwindows.ttf);
 }
 
-html{
+/* html{
     overflow: overlay;
-}
+} */
 
 body{
     /* background: rgb(26, 7, 44); */
@@ -211,7 +211,7 @@ li {
     justify-content: space-between;
     margin: 0;
     font-size: 1em;
-    font-smooth: never;
+    /* font-smooth: never; */
     color: white;
 
 
