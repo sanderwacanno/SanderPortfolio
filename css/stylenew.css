@@ -59,7 +59,7 @@ header section a {
         margin-top: 0.5em;
 }
 
-header section a:not(:first-child) {
+.headerbutton {
     /* Border style */
     border: 5px solid rgb(244, 199, 238);
     border-bottom-color: rgb(111, 64, 101);
@@ -72,7 +72,7 @@ header section a:not(:first-child) {
 
 }
 
-header section a:hover:not(:first-child) {
+.headerbutton:hover {
     background: rgb(249, 218, 255);
 }
 
@@ -299,6 +299,11 @@ li {
     width: auto;
 }
 
+#logoimgtext {
+    display: flex;
+    align-items: center;
+}
+
 #lineup {
     height: 15vw;
     width: auto;
@@ -364,4 +369,9 @@ li {
 .sitepic {
     height: 10vw;
     width: auto;
+}
+
+#logotext {
+    color: white;
+    text-decoration: none;
 }
