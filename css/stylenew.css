@@ -45,7 +45,8 @@ header section {
     /* display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr; */
     display: flex;
-    font-size: clamp(0.5em, 2.5vw, 1.8em);
+    flex-wrap: wrap;
+    font-size: clamp(1em, 2.5vw, 1.8em);
     gap: 1em;
     justify-items: center;
     color: rgb(255, 255, 255);
