@@ -27,6 +27,12 @@ body{
     font-family: 'Verdana', monospace;
 }
 
+@media only screen and (max-width: 768px) {
+    body {
+        background-attachment: scroll;
+    }
+}
+
 body img {
     image-rendering: auto;
 }
@@ -167,8 +173,9 @@ li {
 .nexttoeach {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
+
 
 .imagenexttoeach {
     display: flex;
@@ -207,6 +214,16 @@ li {
     align-items: center;
 }
 
+.textonlywindow {
+    width: 50vw;
+}
+
+@media only screen and (max-width: 768px) {
+    .textonlywindow {
+        width: 70vw;
+    }
+}
+
 .windowframe {
     background: linear-gradient(0deg, rgb(227, 227, 227) 0%, rgb(190, 190, 190) 100%);
     border: 5px solid rgb(244, 199, 238);
@@ -240,12 +257,16 @@ li {
     list-style-type: square;
 }
 
+.window li {
+    padding-right: 16px;
+}
+
 .window i {
     color: rgb(65, 106, 111);
 }
 
 .window > p {
-    padding: 0.25em 0.25em 1em 1em;
+    padding: 0.25em 1em 0.25em 1em;
     margin: 0;
 }
 
@@ -373,7 +394,7 @@ li {
     justify-content: flex-start;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     .videosnexttoeach{ 
         display: block;
     }
@@ -441,6 +462,12 @@ li {
     height: 100%;
     border: 0;
 }
+
+#rotterdamsite {
+    width: 80%;
+    height: auto;
+}
+
 
 footer{
     font-family: var(--main-text-font);
