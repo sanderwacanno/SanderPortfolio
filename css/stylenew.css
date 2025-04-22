@@ -491,3 +491,10 @@ footer{
     font-family: var(--main-text-font);
     color: white;
 }
+
+
+@media only screen and (max-width: 600) {
+    #contactwindow {
+        font-family: LeviWindows;
+    } 
+}
