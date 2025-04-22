@@ -278,7 +278,6 @@ li {
     font-size: 1em;
     /* font-smooth: never; */
     color: white;
-    font-size: 1.2em;
     font-family: LeviWindows;
 
     width: 100%;
@@ -306,7 +305,7 @@ li {
 }
 
 .windowbar h2 {
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: 500;
     /* text-decoration: none; */
 }
