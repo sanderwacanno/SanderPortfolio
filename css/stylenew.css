@@ -207,7 +207,7 @@ li {
     border-bottom-color: rgb(111, 64, 101);
     border-right-color: rgb(111, 64, 101);
 
-    font-family: LeviWindows;
+    font-family: 'Verdana', monospace;
     
     filter: drop-shadow(0px 13px 10px #000000);
     display: flex;
@@ -244,8 +244,7 @@ li {
     border: 5px solid rgb(244, 199, 238);
     border-bottom-color: rgb(111, 64, 101);
     border-right-color: rgb(111, 64, 101);
-
-    font-family: LeviWindows;
+    font-family: 'Verdana', monospace;
     
     filter: drop-shadow(0px 13px 10px #000000);
     display: flex;
@@ -279,7 +278,7 @@ li {
     font-size: 1em;
     /* font-smooth: never; */
     color: white;
-
+    font-family: LeviWindows;
 
     width: 100%;
     height: 1.5em;
@@ -307,6 +306,8 @@ li {
 
 .windowbar h2 {
     font-size: 1em;
+    font-weight: 500;
+    /* text-decoration: none; */
 }
 
 .windowbar > div {
@@ -315,12 +316,28 @@ li {
     align-items: center;
 }
 
+.xicon {
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+    image-rendering: pixelated;
+    height: 1.2em;
+    width: 1.2em;
+}
+
+.xicon:hover {
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+    image-rendering: pixelated;
+    height: 1.2em;
+    width: 1.2em;
+}
+
 .windowlink {
     /* Border style */
     border: 5px solid rgb(244, 199, 238);
     border-bottom-color: rgb(111, 64, 101);
     border-right-color: rgb(111, 64, 101);
-
+    font-family: LeviWindows;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     padding: 0.5em;
